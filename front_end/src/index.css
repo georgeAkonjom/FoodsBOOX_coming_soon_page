@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 62.5%; /* 1 rem is 10px */
+
+  color: black;
+  background-color: #ededed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.inter-black {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+a {
+  font-weight: 700;
+  color: #FBA201;
+}
+a:active{
+  color: red;
+}
+
+.btn {
+  all: unset;
+  display:flex;
+  justify-content: center;
+  padding: 1.7rem 2rem;
+  background-color: #011627;
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #53FF45;
+}
+
+.btn:hover {
+  transition-duration: .5s;
+  transition-style: ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0 0 2px #53FF45;
+}

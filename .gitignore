@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project directories and files
+.venv/
+.super.txt
+**/.env
