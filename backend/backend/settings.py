@@ -30,7 +30,8 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["foodsboox-coming-soon-page.onrender.com"]
+
 
 # Application definition
 
@@ -82,7 +83,6 @@ WSGI_APPLICATION = "backend.wsgi.application"
 
 DATABASES = {
     "default": dj_database_url.config(
-        default="sqlite:///db.sqlite3",  # fallback if env var not set
         conn_max_age=600,  # recommended for production
     )
 }
