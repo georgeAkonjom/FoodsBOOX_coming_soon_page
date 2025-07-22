@@ -71,8 +71,9 @@ function App() {
             {/* </p> */}
             </form>
           </div>
-          <p class="desc">FoodsBOOX is proprietary software from <a href="https://www.booxcommunity.com" target="_blank" rel="noopener">BOOX Community</a> that aims to ease the transit and availabilty of food and food products. Sign up as a vendor today!</p>
+          <div><p class="desc">FoodsBOOX is proprietary software from <a href="https://www.booxcommunity.com" target="_blank" rel="noopener">BOOX Community</a> that aims to ease the transit and availabilty of food and food products. Sign up as a vendor today!</p></div>
         </div>
+        
 
       </section>
       <div id="copy_contain">
