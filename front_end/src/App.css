@@ -90,8 +90,8 @@ form {
     display: none;
   }
   #hero {
+    padding: 2rem;
     font-size: 1.2rem;
-    padding: 4rem;
     flex-direction: column;
     justify-content: center;
   }
