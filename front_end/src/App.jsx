@@ -75,7 +75,7 @@ function App() {
         </div>
 
       </section>
-      <div>
+      <div id="copy_contain">
         <p id="copy">&copy; BOOX Community Limited. <span class="bold">2025</span></p>
       </div>
 
