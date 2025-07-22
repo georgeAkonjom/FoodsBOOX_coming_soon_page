@@ -61,7 +61,7 @@ form {
 
 .button_contain {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .desc {
