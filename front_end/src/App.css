@@ -61,8 +61,7 @@ form {
 
 .button_contain {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: space-around;
 }
 
 .desc {
@@ -118,6 +117,6 @@ form {
     padding-right: 2rem;
   }
   form {
-    gap: .8rem;
+    gap: .5rem;
 }
 
