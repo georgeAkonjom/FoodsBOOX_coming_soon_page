@@ -14,7 +14,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:8000/api/subscribe/", {
+      const res = await fetch("https://foodsboox-coming-soon-page.onrender.com/api/subscribe/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
