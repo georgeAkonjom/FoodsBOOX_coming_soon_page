@@ -62,8 +62,8 @@ function App() {
               />
               <br />
               <div class="button_contain">
-              <button type="submit" class="btn mail">Join our mailing list</button>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4fxHx4SpZXRK2mT2Ucwtax83QPATf-tZIKRYY0niMdFpD4g/viewform" class="btn vendor">SignUp as a Store</a>
+              <button type="submit" class="btn mail">Join mailing list</button>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4fxHx4SpZXRK2mT2Ucwtax83QPATf-tZIKRYY0niMdFpD4g/viewform" class="btn vendor">SignUp a Store</a>
               </div>
               <br/>
               {/* <p class="error"> */}

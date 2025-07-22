@@ -58,3 +58,9 @@ a:active{
   cursor: pointer;
   box-shadow: 0 0 0 2px #53FF45;
 }
+
+@media (max-width: 60rem) {
+  .btn{
+    font-size: 1rem;
+  }
+}
