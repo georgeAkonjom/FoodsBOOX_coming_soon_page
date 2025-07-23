@@ -131,10 +131,10 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # or whatever port your React app runs on
+    "https://foodsboox-coming-soon-page.onrender.com",
 ]
 
-CSRF_TRUSTED_ORIGINS = ["https://foodsboox.vercel.app"]
+CSRF_TRUSTED_ORIGINS = ["https://foodsboox-coming-soon-page.onrender.com"]
 
 LOGGING = {
     "version": 1,
