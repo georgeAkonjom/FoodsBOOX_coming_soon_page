@@ -134,7 +134,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # or whatever port your React app runs on
 ]
 
-CSRF_TRUSTED_ORIGINS = ["https://foodsboox-coming-soon-page.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://foodsboox.vercel.app"]
 
 LOGGING = {
     "version": 1,
