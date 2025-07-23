@@ -4,5 +4,5 @@ from .views import EmailSubscriptionView, health_check
 
 urlpatterns = [
     path("subscribe/", EmailSubscriptionView.as_view(), name="email-subscribe"),
-    path("api/health/", health_check),
+    path("health/", health_check),
 ]
