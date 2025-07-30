@@ -62,18 +62,18 @@ function App() {
               />
               <br />
               <div class="button_contain">
-              <button type="submit" class="btn mail">Join mailing list</button>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4fxHx4SpZXRK2mT2Ucwtax83QPATf-tZIKRYY0niMdFpD4g/viewform" class="btn vendor">SignUp a Store</a>
+                <button type="submit" class="btn mail">Join mailing list</button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4fxHx4SpZXRK2mT2Ucwtax83QPATf-tZIKRYY0niMdFpD4g/viewform" class="btn vendor">Sign-up your store!</a>
               </div>
-              <br/>
+              <br />
               {/* <p class="error"> */}
-              {message && <p class="error"> {message} </p>} 
-            {/* </p> */}
+              {message && <span class="error"> {message} </span>}
+              {/* </p> */}
             </form>
           </div>
           <div><p class="desc">FoodsBOOX is proprietary software from <a href="https://www.booxcommunity.com" target="_blank" rel="noopener">BOOX Community</a> that aims to ease the transit and availabilty of food and food products. Sign up as a vendor today!</p></div>
         </div>
-        
+
 
       </section>
       <div id="copy_contain">
