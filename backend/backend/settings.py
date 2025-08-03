@@ -10,8 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
-import logging
-import logging.config
 import os
 from pathlib import Path
 
@@ -29,12 +27,11 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv("SECRET_KEY")
 STATIC_URL = "/static/"
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")  # or any desired directory
-
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["www.foodsboox.com", "admissionboox-coming-soon-onrender.com"]
 
 
 # Application definition
@@ -88,7 +85,7 @@ WSGI_APPLICATION = "backend.wsgi.application"
 
 DATABASES = {
     "default": dj_database_url.config(
-        conn_max_age=600,  # recommended for production
+        conn_max_age=600,
     )
 }
 
@@ -135,6 +132,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "https://foodsboox.vercel.app",
+    "https://foodsboox.com",
+    "https://admissionboox-coming-soon.onrender.com",
 ]
 
 CSRF_TRUSTED_ORIGINS = ["https://foodsboox-coming-soon-page.onrender.com"]
