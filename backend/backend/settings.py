@@ -133,7 +133,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOWED_ORIGINS = [
     "https://foodsboox.vercel.app",
     "https://foodsboox.com",
-    "https://admissionboox-coming-soon.onrender.com",
 ]
 
 CSRF_TRUSTED_ORIGINS = ["https://foodsboox-coming-soon-page.onrender.com"]
