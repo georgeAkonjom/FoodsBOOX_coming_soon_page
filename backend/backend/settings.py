@@ -31,7 +31,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["www.foodsboox.com", "admissionboox-coming-soon-onrender.com"]
+ALLOWED_HOSTS = ["www.foodsboox.com", "admissionboox.vercel.app"]
 
 
 # Application definition
