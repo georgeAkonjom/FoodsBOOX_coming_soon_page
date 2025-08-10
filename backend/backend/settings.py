@@ -132,6 +132,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "https://foodsboox.vercel.app",
+    "https://admissionboox.vercel.app"
+    "https://admissionboox.com"
     "https://foodsboox.com",
 ]
 
