@@ -135,10 +135,8 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
-    "https://foodsboox.vercel.app",
-    "https://admissionboox.vercel.app"
-    "https://admissionboox.com"
-    "https://foodsboox.com",
+    "foodsboox.vercel.app",
+    "admissionboox.vercel.app" "https://admissionboox.com" "foodsboox.com",
 ]
 
 CSRF_TRUSTED_ORIGINS = ["https://foodsboox-coming-soon-page.onrender.com"]
