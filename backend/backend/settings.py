@@ -145,4 +145,5 @@ CORS_ALLOWED_ORIGINS = [
 CSRF_TRUSTED_ORIGINS = [
     "https://foodsboox.com",
     "https://foodsboox-coming-soon-page.onrender.com",
+    "https://admissionboox-coming-soon.onrender.com",
 ]
