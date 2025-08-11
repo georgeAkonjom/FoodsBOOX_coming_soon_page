@@ -42,6 +42,7 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     "api",
+    "corsheaders",
     "rest_framework",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -52,10 +53,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
-    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -135,8 +136,13 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
-    "foodsboox.vercel.app",
-    "admissionboox.vercel.app" "https://admissionboox.com" "foodsboox.com",
+    "http://foodsboox.vercel.app",
+    "https://foodsboox.com",
+    "https://admissionboox.vercel.app",
+    "https://admissionboox.com",
 ]
 
-CSRF_TRUSTED_ORIGINS = ["https://foodsboox-coming-soon-page.onrender.com"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://foodsboox.com",
+    "https://foodsboox-coming-soon-page.onrender.com",
+]
